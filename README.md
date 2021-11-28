@@ -1,2 +1,0 @@
-# mhd
-Basic Computational MHD
