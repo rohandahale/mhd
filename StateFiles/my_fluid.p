@@ -53,7 +53,7 @@ p21
 g10
 sS'XMAX'
 p22
-F1
+I1
 sS'NT'
 p23
 I2100
@@ -67,7 +67,7 @@ sS'S'
 F0.10000000000000001
 sS'YMAX'
 p26
-F1
+I1
 sS'cycle_start'
 p27
 I1

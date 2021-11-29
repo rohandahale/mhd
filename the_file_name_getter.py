@@ -16,7 +16,8 @@ def get_file_name(cycles, max_cyc_mag, label, ext):
 	cyc_lbl = ""
 	for i in xrange(1, max_cyc_mag + 1):
 		if cycles < 10**i:
-			cyc_lbl = "0" *(max_cyc_mag - i) + str(cycles)
+			#cyc_lbl = "0" *(max_cyc_mag - i) + str(cycles)
+			cyc_lbl =  str(cycles)
 			file_name = label + "_cycle_" + cyc_lbl + ext
 			return file_name 
 		# end if

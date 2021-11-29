@@ -46,6 +46,7 @@ if my_fluid.cycle_start == 1:
 
 	B0 = 1.0/np.sqrt(4*np.pi)
 	A  = B0*np.cos(4*np.pi*X)/(4*np.pi) + B0*np.cos(2*np.pi*Y)/(2*np.pi)
+	print A.shape
 
 	#Update ghost zones so boundaries are periodic
 	u[ 0, : ] 	= u[ -2, : ]

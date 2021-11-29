@@ -29,10 +29,10 @@ NY= 51	 	#number of zones in y
 NZ = "NA"   #not applicable to a 2D problem
 
 XMIN = 0.0 
-XMAX = 1.0 
+XMAX = 1
 
 YMIN = 0.0 
-YMAX = 1.0
+YMAX = 1
 
 DX=(XMAX-XMIN)/(NX-1) #width of a cell in x 
 DY=(YMAX-YMIN)/(NY-1) #width of a cell in y 
